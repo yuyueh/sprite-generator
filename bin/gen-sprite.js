@@ -36,7 +36,7 @@
 
     const targetImages = fs
         .readdirSync(src)
-        .filter(extensionWith(['png', 'jpg', 'jpeg']))
+        .filter(extensionWith(['png']))
         .map(wrapImgWithSize(src));
 
     const { layout, images } = layoutGen
