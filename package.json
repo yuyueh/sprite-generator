@@ -1,0 +1,35 @@
+{
+    "name": "images-sprite-generator",
+    "version": "0.0.7",
+    "description": "images-sprite-generator is a tool to generate css with image sprite.",
+    "homepage": "https://github.com/yuyueh/gen-sprite",
+    "author": "Ed Chang <yuyueh.chang@gmail.com> (https://github.com/yuyueh/)",
+    "license": "MIT",
+    "main": "./index",
+    "bin": {
+        "gen-sprite": "index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yuyueh/sprite-generator.git"
+    },
+    "scripts": {
+        "patch-release": "npm version patch && npm publish --access=public",
+        "test": ""
+    },
+    "dependencies": {
+        "image-size": "^1.0.0",
+        "images": "^3.2.3",
+        "minimist": "^1.2.5"
+    },
+    "bugs": {
+        "url": "https://github.com/yuyueh/sprite-generator/issues"
+    },
+    "keywords": [
+        "css",
+        "sprite",
+        "generator",
+        "images",
+        "icons"
+    ]
+}
