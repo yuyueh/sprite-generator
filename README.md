@@ -52,6 +52,14 @@ npx images-sprite-generator gen-sprite --src=./icons/ --cssOutput=./output.css -
 }
 ```
 
+### Example(HTML)
+
+and then you can easily use sprite icon in your html.
+
+```html
+<div class="sprite sprite__image-name"></div>
+```
+
 # Options
 
 | args           | description                              | type   | default      |
