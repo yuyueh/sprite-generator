@@ -1,4 +1,6 @@
 const sizeOf = require('image-size');
+const admin = require('admin-check');
+const pressAnyKey = require('press-any-key');
 
 const logIfError = (error) => error && console.log(error);
 
@@ -21,8 +23,15 @@ const wrapImgWithSize = (path) => (file) => ({
     size: sizeOf(`${path}${file}`),
 });
 
+const tipIfNotAdmin = async (msg) => {
+    if (!(await admin.check())) {
+        return await pressAnyKey(msg);
+    }
+};
+
 exports.logIfError = logIfError;
 exports.extensionWith = extensionWith;
 exports.getByKey = getByKey;
 exports.descendingBy = descendingBy;
 exports.wrapImgWithSize = wrapImgWithSize;
+exports.tipIfNotAdmin = tipIfNotAdmin;
