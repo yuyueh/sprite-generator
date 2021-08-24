@@ -1,6 +1,6 @@
 {
     "name": "images-sprite-generator",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "images-sprite-generator is a tool to generate css with image sprite.",
     "homepage": "https://github.com/yuyueh/gen-sprite",
     "author": "Ed Chang <yuyueh.chang@gmail.com> (https://github.com/yuyueh/)",
