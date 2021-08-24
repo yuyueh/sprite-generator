@@ -62,14 +62,14 @@ and then you can easily use sprite icon in your html.
 
 # Options
 
-| args           | description                              | type   | default      |
-| -------------- | ---------------------------------------- | ------ | ------------ |
-| `src`          | path of images.(required)                | string | -            |
-| `padding`      | padding of each images                   | number | 10           |
-| `spaces`       | the number of spaces for stylesheet      | number | 4            |
-| `prefix`       | prefix of class name for stylesheet      | string | `sprite`     |
-| `cssOutput`    | output path of stylesheet                | string | `output.css` |
-| `spriteOutput` | sprite png path, base64 mode if is empty | string | -            |
+| args           | description                              | type   | default    |
+| -------------- | ---------------------------------------- | ------ | ---------- |
+| `src`          | path of images.(required)                | string | -          |
+| `padding`      | padding of each images                   | number | 10         |
+| `spaces`       | the number of spaces for stylesheet      | number | 4          |
+| `prefix`       | prefix of class name for stylesheet      | string | sprite     |
+| `cssOutput`    | output path of stylesheet                | string | output.css |
+| `spriteOutput` | sprite png path, base64 mode if is empty | string | -          |
 
 # TBD
 
