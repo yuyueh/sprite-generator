@@ -17,7 +17,7 @@
         padding: 10,
         spaces: 4,
         prefix: 'sprite',
-        cssOutput: './output.scss',
+        cssOutput: './output.css',
         spriteOutput: null,
     };
     const { src, padding, spaces, prefix, cssOutput, spriteOutput } =
