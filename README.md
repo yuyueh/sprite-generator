@@ -68,4 +68,5 @@ npx images-sprite-generator gen-sprite --src=./icons/ --cssOutput=./output.css -
 -   [ ] [Exploring rectangle packing algorithms](https://www.david-colson.com/2020/03/10/exploring-rect-packing.html)
 -   [ ] Github action
 -   [ ] Unit test
+-   [ ] Provide options for image type(png and jpg)
 -   [ ] Fix the error message that appears when executed by non-administrators
